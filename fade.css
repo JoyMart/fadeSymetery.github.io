@@ -1,0 +1,91 @@
+/* 
+
+body css
+
+*/
+
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* end body css */
+
+/* 
+
+navbar css
+
+*/
+.navbar ul {
+    list-style-type: none; /* no bullet/numbers */
+    margin: 10; /* space from boorder */
+    padding: 0; /* space from inside */
+    position: fixed; 
+    top: 0; /* stays on top of screen */
+    width: 75%; /* stretches accross screen */
+    overflow:hidden;
+    background-color: black;
+}
+.navbar li {
+    display: inline; /* vs like a list */
+    border: 1px solid red; /*border around each list item */
+    margin: 5; /* space from boorder */
+    padding: 5; /* space from inside */
+    float: left;
+}
+.navbar li a {
+    display: block;
+    color: rgb(255, 203, 59);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: rgb(54, 54, 54);
+}
+/* end navbar css */
+
+
+.body {
+    border: 3px double red;
+}
+/* home page style */
+.FadeSymetery {
+    color: whitesmoke;
+    margin: 20px;
+}
+.FSred{
+    color: red;
+    font-size: 8vw;
+}
+.FSgold {
+    font-style: italic;
+    color: rgb(255, 203, 59);
+    font-size: 12vw;
+}
+
+.logoImg {
+    float: right;
+}
+/* end home page css */
+
+/* about page style */
+#AboutMe {
+    color: whitesmoke;
+    text-align: center;
+}
+/* end about css */
+
+/* youtube page style */
+#Youtube {
+    color: whitesmoke;
+    text-align: center;
+}
+/* end youtube css */
+
+/* twitch page style */
+#Twitch {
+    color: whitesmoke;
+    text-align: center;
+}
+/* end twitch css */
