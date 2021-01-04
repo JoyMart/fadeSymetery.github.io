@@ -1,0 +1,46 @@
+/* 
+
+body css
+
+*/
+
+body {
+    background-color: black;
+}
+
+/* end body css */
+
+/* 
+
+navbar css
+
+*/
+.navbar ul {
+    list-style-type: none; /* no bullet/numbers */
+    margin: 0; /* space from boorder */
+    padding: 0; /* space from inside */
+    position: fixed; 
+    top: 0; /* stays on top of screen */
+    width: 100%; /* stretches accross screen */
+    overflow:hidden;
+    background-color: black;
+}
+.navbar li {
+    display: inline; /* vs like a list */
+    border: 1px solid red; /*border around each list item */
+    margin: 5; /* space from boorder */
+    padding: 5; /* space from inside */
+    float: left;
+}
+.navbar li a {
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: rgb(54, 54, 54);
+}
+/* end navbar css */
