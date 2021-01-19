@@ -21,9 +21,9 @@ navbar css
     padding: 0; /* space from inside */
     position: fixed; 
     top: 0; /* stays on top of screen */
-    width: 75%; /* stretches accross screen */
+    width: auto; /* stretches accross screen */
     overflow:hidden;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .navbar li {
     display: inline; /* vs like a list */
@@ -43,12 +43,12 @@ navbar css
 .navbar li a:hover {
     background-color: rgb(54, 54, 54);
 }
+#logoImg {
+    height: 43px;
+    width: 43px;
+}
 /* end navbar css */
 
-
-.body {
-    border: 3px double red;
-}
 /* home page style */
 .FadeSymetery {
     color: whitesmoke;
@@ -57,11 +57,14 @@ navbar css
 .FSred{
     color: red;
     font-size: 8vw;
+    font-family: Snell Roundhand, cursive;
 }
+
 .FSgold {
     font-style: italic;
     color: rgb(255, 203, 59);
     font-size: 12vw;
+    font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
 .logoImg {
@@ -74,6 +77,15 @@ navbar css
     color: whitesmoke;
     text-align: center;
 }
+
+#AboutMe h2 {
+    color: rgb(255, 203, 59);
+}
+
+#AboutMe a {
+    text-decoration: none;
+    color: rgb(255, 203, 59);
+}
 /* end about css */
 
 /* youtube page style */
@@ -81,11 +93,29 @@ navbar css
     color: whitesmoke;
     text-align: center;
 }
+
+#Youtube h2 {
+    color: rgb(255, 203, 59);
+}
+
+#Youtube a {
+    text-decoration: none;
+    color: rgb(255, 203, 59);
+}
 /* end youtube css */
 
 /* twitch page style */
 #Twitch {
     color: whitesmoke;
     text-align: center;
+}
+
+#Twitch a {
+    text-decoration: none;
+    color: rgb(255, 203, 59);
+}
+
+#Twitch h2 {
+    color: rgb(255, 203, 59);
 }
 /* end twitch css */
